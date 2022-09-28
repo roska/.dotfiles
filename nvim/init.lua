@@ -3,6 +3,7 @@
 require('plugins')
 require('nvim-tree-config')
 require('telescope-config')
+require('lualine-config')
 
 
 -- Packer setup
