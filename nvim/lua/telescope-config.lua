@@ -17,7 +17,7 @@ require("telescope").setup({
 })
 
 -- Ctrl-p show files tracked by git repository
-vim.keymap.set('n', '<c-p>', '<cmd>Telescope git_files<cr>')
+vim.keymap.set('n', '<c-p>', '<cmd>Telescope find_files hidden=true<cr>')
 
 -- Ctrl-p show all files
-vim.keymap.set('n', '<leader>p', '<cmd>Telescope find_files<cr>')
+vim.keymap.set('n', '<leader>p', '<cmd>Telescope git_files<cr>')

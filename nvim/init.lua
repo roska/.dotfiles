@@ -4,6 +4,10 @@ require('plugins')
 require('nvim-tree-config')
 require('telescope-config')
 require('lualine-config')
+require('bufferline-config')
+
+
+
 
 
 -- Packer setup
@@ -47,6 +51,9 @@ vim.opt.autoindent = true
 
 vim.opt.showcmd = true
 
+--- asdfasdf
+vim.opt.termguicolors = true
+
 
 -- Keybindings
 -- vim.keymaps.set('mode', 'key', 'action', 'options')
@@ -69,4 +76,4 @@ vim.keymap.set('n', '<leader>t', '<cmd>NvimTreeToggle<cr>')
 -- vim.keymap.set('n', '<leader>p', '<cmd>Telescope find_files<cr>')
 
 
-vim.keymap.set('n', '<leader>p', '<cmd>Telescope find_files<cr>')
+vim.keymap.set('n', '<leader>p', '<cmd>Telescope git_files<cr>')
