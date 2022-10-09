@@ -8,8 +8,6 @@ require('bufferline-config')
 
 
 
-
-
 -- Packer setup
 --[[
 local install_path = vim.fn.stdpath('data') .. '/site/pack/packer/start/packer.nvim'
@@ -73,7 +71,18 @@ vim.keymap.set('n', '<leader>q', '<cmd>q<cr>')
 
 vim.keymap.set('n', '<leader>t', '<cmd>NvimTreeToggle<cr>')
 
--- vim.keymap.set('n', '<leader>p', '<cmd>Telescope find_files<cr>')
+-- Telescope mappings
+vim.keymap.set('n', '<leader>p', '<cmd>Telescope find_files<cr>')
+vim.keymap.set('n', '<c-p>', '<cmd>Telescope git_files<cr>')
 
 
-vim.keymap.set('n', '<leader>p', '<cmd>Telescope git_files<cr>')
+-- Bufferline mappings
+vim.keymap.set('n', '<leader>1', '<cmd>BufferLineGoToBuffer 1<cr>')
+vim.keymap.set('n', '<leader>2', '<cmd>BufferLineGoToBuffer 2<cr>')
+vim.keymap.set('n', '<leader>3', '<cmd>BufferLineGoToBuffer 3<cr>')
+vim.keymap.set('n', '<leader>4', '<cmd>BufferLineGoToBuffer 4<cr>')
+vim.keymap.set('n', '<leader>5', '<cmd>BufferLineGoToBuffer 5<cr>')
+vim.keymap.set('n', '<leader>6', '<cmd>BufferLineGoToBuffer 6<cr>')
+vim.keymap.set('n', '<leader>7', '<cmd>BufferLineGoToBuffer 7<cr>')
+vim.keymap.set('n', '<leader>8', '<cmd>BufferLineGoToBuffer 8<cr>')
+vim.keymap.set('n', '<leader>9', '<cmd>BufferLineGoToBuffer 9<cr>')
