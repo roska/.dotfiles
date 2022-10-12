@@ -4,6 +4,7 @@ require('packer').startup(function(use)
   use 'gruvbox-community/gruvbox' -- Gruvbox colorscheme
   use 'folke/tokyonight.nvim' -- Tokoynight colorscheme
   use 'sainnhe/everforest' -- Everforest colorscheme
+  use 'rose-pine/neovim'
 
   -- Telescope
 	use {

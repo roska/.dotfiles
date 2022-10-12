@@ -32,7 +32,7 @@ end
 -- vim.wo = window-scoped settings
 -- vim.bo = buffer-scoped settings
 -- vim.g = global variables
-vim.cmd "colorscheme tokyonight" -- Set colorscheme
+vim.cmd "colorscheme rose-pine" -- Set colorscheme
 
 -- Linenumbers
 vim.opt.number = true -- Show linenumbers
