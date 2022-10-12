@@ -12,8 +12,18 @@ require("telescope").setup({
         ["<C-j>"] = "move_selection_next", -- Down
         ["<C-k>"] = "move_selection_previous", -- Up
       }
+    },
+    layout_strategy = 'vertical',
+    file_ignore_patterns = {
+      ".git/",
+      "node_modules/"
     }
-  }
+  },
+  pickers = {
+    find_files = {
+      hidden = true
+    }
+  },
 })
 
 -- Ctrl-p show files tracked by git repository

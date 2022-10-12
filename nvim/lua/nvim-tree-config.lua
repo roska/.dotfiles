@@ -1,5 +1,8 @@
 --[[
+-- nvim-tree plugin note2self:
+
   g? - toggle help 
+  
 --]]
 require("nvim-tree").setup({
   view = {
