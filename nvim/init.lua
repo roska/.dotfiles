@@ -5,8 +5,7 @@ require('nvim-tree-config')
 require('telescope-config')
 require('lualine-config')
 require('bufferline-config')
-
-
+require('nvim-transparent-config')
 
 -- Packer setup
 --[[
@@ -68,7 +67,7 @@ vim.keymap.set('n', '<leader>w', '<cmd>write<cr>')
 -- Quit vim
 vim.keymap.set('n', '<leader>q', '<cmd>q<cr>')
 
-
+-- NvimTree
 vim.keymap.set('n', '<leader>t', '<cmd>NvimTreeToggle<cr>')
 
 -- Telescope mappings
@@ -86,3 +85,5 @@ vim.keymap.set('n', '<leader>6', '<cmd>BufferLineGoToBuffer 6<cr>')
 vim.keymap.set('n', '<leader>7', '<cmd>BufferLineGoToBuffer 7<cr>')
 vim.keymap.set('n', '<leader>8', '<cmd>BufferLineGoToBuffer 8<cr>')
 vim.keymap.set('n', '<leader>9', '<cmd>BufferLineGoToBuffer 9<cr>')
+
+
